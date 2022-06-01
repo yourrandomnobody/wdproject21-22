@@ -1,0 +1,68 @@
+/* DEFAULT ACROSS ALL PAGES */
+body {
+  background: rgb(17, 56, 89);
+}
+
+#social > a > img {
+  width: 14px;
+  height: 14px;
+}
+/* NAVBAR STUFF */
+.navbar {
+  background-color: rgb(209 120 37);
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-link > a:hover {
+  color: rgb(255 120 37);
+}
+
+.nav-item:hover {
+  background-color: rgb(255 120 37);
+  border-radius: 16px;
+  color: #fff;
+}
+
+/* FOOTER */
+footer > div > p {
+  color: #fff;
+}
+
+footer > #social {
+  color: #fff;
+}
+
+#copiright {
+  color: rgb(209 120 37);
+  text-decoration: none;
+}
+
+footer > div > a:hover {
+  color: rgb(255 120 37);
+}
+
+#success {
+  background-color: #fff;
+}
+
+#back {
+  background-color: rgb(209 120 37);
+  text-align: center;
+}
+
+#back > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#back:hover {
+    background-color: #000;
+}
+
+h1 {
+  color: #000;
+}

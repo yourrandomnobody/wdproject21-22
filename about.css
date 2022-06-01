@@ -1,0 +1,115 @@
+/* DEFAULT ACROSS ALL PAGES */
+body {
+  background: rgb(17, 56, 89);
+}
+
+#social > a > img {
+  width: 14px;
+  height: 14px;
+}
+/* NAVBAR STUFF */
+.navbar { 
+    background-color: rgb(209 120 37);
+    }
+    
+    .nav-link {
+        color:#fff;
+        font-weight:700;
+    } 
+    
+     .nav-link > a:hover {
+        color: rgb(255 120 37);
+    } 
+    
+    
+    .nav-item:hover {
+        background-color: rgb(255 120 37);
+        border-radius: 16px;
+        color:#fff;
+    }
+
+
+                        /* FOOTER */
+			/*FOOTER STUFF*/
+			footer > div > p {
+				color: #fff;
+			  }
+			  
+			  footer > #social {
+				color: #fff;
+			  }
+			  
+			  #copiright {
+				color: rgb(209 120 37);
+				text-decoration: none;
+			  }
+			  
+			  footer > div > a:hover {
+				color: rgb(255 120 37);
+			  }
+
+/* PAGE SPECIFIC */
+
+#longterm {
+  /* h1 h3 p img */
+  background-color: #fff;
+  text-align: center;
+}
+
+#longterm > h1 {
+  font-weight: 700;
+}
+
+#management {
+  /* cards */
+  padding-bottom: 20px;
+}
+
+#tekst {
+  background-color: rgb(209 120 37);
+  color: #fff;
+  text-align: center;
+}
+
+#management > .card > img {
+  width: 190px;
+  height: 190px;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+/* misije */
+
+#mission {
+  background-color: #fff;
+  text-align: center;
+}
+
+#mission > h1 {
+  font-weight: 700;
+}
+
+#specialization {
+  background-color: #fff;
+  text-align: center;
+}
+
+#specialization > h1 {
+  font-weight: 700;
+}
+
+#specialization > a {
+  text-decoration: none;
+  color: #000;
+}
+
+#specialization > a:hover {
+  color: rgb(209 150 37);
+}
+
+#specialization > img {
+  height: 50%;
+  width: 50%;
+}

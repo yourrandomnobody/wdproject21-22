@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projekat iz web design</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- LOGO -->
+    <!-- <div class="container"> -->
+
+    <!-- NAVIGACIJA vala -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo1.png"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="maintenance.html">Maintenance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="repair.html">Repair</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="price.html">Price list</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mejn.html">SR/EN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-expand-xl navbar-light">
+      <a class="navbar-brand" href="main.html">
+        <div id="logoDiv">
+          <img src="images/logo1.png" alt="Hascar"/>
+        </div>
+      </a>
+      <button
+        class="navbar-toggler" id="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="maintenance.html">Maintenance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="repair.html">Repair</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="price.html">Price List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mejn.html">SR/<b>EN</b></a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <!-- KONTEJNER VALA STO -->
+    <div class="container my-3 py-3">
+      <!-- SLAJDA GA BRUDA -->
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/slide-1.jpg" class="d-block w-100" alt="ti???" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ford Kuga</h5>
+              <p>
+                The Ford Kuga is a compact crossover SUV (C-segment)
+                manufactured by Ford since 2008 mainly for the European market,
+                and now in its third generation. Both front-wheel drive and
+                four-wheel drive are offered. The Kuga was originally
+                European-designed and sold in Europe and a few other markets,
+                but beginning in 2012 for the 2013 model year, it was marketed
+                in North America as the Ford Escape.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/slide-2.jpg" class="d-block w-100" alt="ti??" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Honda HSC Concept</h5>
+              <p>
+                Acura's 300-plus horsepower HSC (High-Performance Sports
+                Concept) will make its domestic debut at the North American
+                International Auto Show in Detroit. The HSC is a design study
+                combining the ultimate in supercar performance with the interior
+                comfort and handling ease of a daily driver. It features a
+                lightweight body, a compact yet powerful engine and a
+                racing-inspired interior. The High-Performance Sports Concept
+                features a lightweight 3.5-liter V-6 engine located midship for
+                optimum balance and superior handling. Shifting is accomplished
+                through a unique dial shifter located on the center console or
+                an F-1 style paddle shifter located on the steering wheel.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/slide-3.jpg" class="d-block w-100" alt="ti?" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Maserati Granturismo</h5>
+              <p>
+                The Maserati GranTurismo and GranCabrio (Tipo M145) are a series
+                of a grand tourers produced by the Italian automobile
+                manufacturer Maserati from 2007 to 2019. They succeeded the
+                2-door V8 grand tourers offered by the company, the Maserati
+                Coupé, and Spyder. The model was initially equipped with a
+                4.2-litre (4,244 cc (259.0 cu in)) V8 engine developed in
+                conjunction with Ferrari. The GranTurismo platform was derived
+                from Maserati M139 platform of Maserati Quattroporte V, with
+                double-wishbone front and rear suspension. The grand tourer
+                emphasizes comfort in harmony with speed and driver-enjoyment.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- PRVE KARTICE -->
+      <div class="row my-3 py-3">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/page1-img1.jpg" alt="tii.." />
+            <div class="card-body">
+              <h5 class="card-title">Schedule services</h5>
+              <p class="card-text">
+                Schedule our services by calling one of the following numbers!
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/page1-img2.jpg" alt="tii.." />
+            <div class="card-body">
+              <h5 class="card-title">Preventive maintenance</h5>
+              <p class="card-text">
+                Routine maintenance are maintenance activities such as regular
+                inspections or machine servicing. Routine maintenance is done on
+                a regular basis, whether that be daily, weekly, monthly, or
+                yearly. Routine maintenance is an important part of keeping
+                systems up to date and functional.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/page1-img3.jpg" alt="tii.." />
+            <div class="card-body">
+              <h5 class="card-title">Repair services</h5>
+              <p class="card-text">
+                Repair Services means the reconditioning or renewal of parts,
+                components, and/or subsystems necessary to keep the Lift
+                Equipment in compliance with applicable Code requirements and
+                the manufacturer’s specifications.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="images/page1-img4.jpg" alt="tii.." />
+            <div class="card-body">
+              <h5 class="card-title">Tire & Wheel services</h5>
+              <p class="card-text">
+                We offer a wide range of tires for your vehicle. Let our
+                professionals help you find, balance, and mount the right tires
+                for your car.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- row end // KARTICE KRAJ -->
+      </div>
+
+      <!-- this is the testimonial card stuff -->
+      <div class="container my-2 py-2">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial-1 rounded">
+              <p>
+                Amazing staff and team! Would always bring my car here for
+                check-ups. 5 stars! <br /><br />
+              </p>
+              <div class="d-flex flex-row align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="https://i.imgur.com/sKDeBrg.jpg"
+                  width="40"
+                />
+                <div class="ml-2 about">
+                  <span class="d-block name">Giralle Cross</span
+                  ><span class="place">Operator Trade, Little AR, TX</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-2 rounded">
+              <p>
+                As always, HASCAR exceeds my expetations when it comes to being
+                profesional, upkept, fast and precise. Best in town.<br /><br />
+              </p>
+              <div class="d-flex flex-row align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="https://i.imgur.com/aZ9cakV.jpg"
+                  width="40"
+                />
+                <div class="ml-2 about">
+                  <span class="d-block name">Sam Cross</span
+                  ><span class="place-2">Android Developer, Little AR, TX</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-1 rounded">
+              <p>
+                They've revived my vintage Chevrolet from the dead! Horray to
+                enthusiasts!<br /><br />
+              </p>
+              <div class="d-flex flex-row align-items-center">
+                <img
+                  class="rounded-circle"
+                  src="https://i.imgur.com/LP0U10y.jpg"
+                  width="40"
+                />
+                <div class="ml-2 about">
+                  <span class="d-block name">Marry Cross</span
+                  ><span class="place">Operator Trade, Little AR, CA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <div id="services" class="my-3 py-3">
+        <br />
+        <h2>Our services</h2>
+        <a href="#"></a>
+        <a href="#">► Test drive ◄</a><br />
+        <a href="#">► Configurator ◄</a><br />
+        <a href="#">► Model overview ◄</a><br />
+        <a href="#">► Museum & history ◄</a><br />
+        <a href="#">► Design ◄</a><br /><br />
+      </div>
+
+      <br />
+      <br />
+
+      <footer class="d-flex justify-content-between my-3 py-3">
+        <div id="social">
+          <a href="https://facebook.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://instagram.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <div>
+          <p>
+            Small bros inc. &copy;
+            <a href="vue/nas-tim.html" id="copiright">Copyright 2022</a>
+          </p>
+        </div>
+      </footer>
+
+      <!-- container div end -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  -->
+    <!-- <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/noframework.waypoints.min.js"></script>
+    <script src="js/home.js" defer></script> -->
+    -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

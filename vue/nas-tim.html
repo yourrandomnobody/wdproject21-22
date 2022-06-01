@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naš tim</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/all.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="vue.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class=".left"><h1>Small bros</h1></div>
+    </nav>
+    <section id="app">
+      <div class="header">
+        <h1>Upoznaj naš tim</h1>
+      </div>
+      <ul id="clanovi">
+        <member
+          v-for="mem in members"
+          :key="mem.id"
+          :name="mem.name"
+          :phone="mem.phone"
+          :email="mem.email"
+          :image="mem.image"
+        ></member>
+      </ul>
+
+      <div id="donate">
+        <div class="header">
+          <h1>Podrži naš rad</h1>
+        </div>
+        <div class="donate-inner">
+          <div class="buttons">
+            <div class="greenDiv">
+              <button class="green" v-on:click="add(1)">+1$</button>
+              <button class="green" v-on:click="add(10)">+10$</button>
+              <button class="green" v-on:click="add(100)">+100$</button>
+            </div>
+
+            <div class="redDiv">
+              <button class="red" v-on:click="reduce(1)">-1$</button>
+              <button class="red" v-on:click="reduce(10)">-10$</button>
+              <button class="red" v-on:click="reduce(100)">-100$</button>
+            </div>
+          </div>
+          <p id="iznosText">Iznos za donaciju:</p>
+          <p id="iznos"><span>{{ counter }}</span>$</p>
+          <button v-if="donateVisible" id="donateBtn" v-on:click="donate()">
+            Doniraj
+          </button>
+        </div>
+      </div>
+
+      <div v-if="thanks" id="thanks">
+        <h1>Hvala na donaciji od {{ counter }}$</h1>
+      </div>
+    </section>
+    <footer>
+      <h2>Copyright &copy; ProgrammingTeam</h2>
+    </footer>
+  </body>
+</html>

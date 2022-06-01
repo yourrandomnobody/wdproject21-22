@@ -1,0 +1,243 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  body {
+    background: url(bg.jpg);
+    background-size:contain;
+  }
+  
+  nav {
+    background-color: rgba(209, 125, 37, 0.7);
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    padding: 25px;
+    -webkit-text-stroke: black 2px;
+    color: white;
+    border-bottom: 10px solid white;
+  }
+  
+  #app {
+    margin: 0 auto;
+  }
+  
+  .header {
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(209, 125, 37, 0.9);
+    border: 2px solid white;
+    text-align: center;
+    width: 90%;
+    max-width: 40rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  #clanovi ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #clanovi > li {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background: rgba(255, 255, 255, 0.9);
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  #clanovi h2 {
+    font-size: 2rem;
+    color: black;
+    margin: 10px 15px;
+  }
+  
+  #clanovi button {
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: rgb(209,125,37);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+  }
+  
+  #clanovi button:hover,
+  #clanovi button:active {
+    background-color: rgb(209,125,37);
+  }
+  
+  .fa-phone-alt,
+  .fa-envelope {
+    color: rgb(209,125,37);
+    font-size: 1.4rem;
+  }
+  
+  .inner {
+    font-size: 1.2rem;
+  }
+  
+  .inner li {
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .inner img {
+    border-radius: 15px;
+    border: 5px solid rgb(209,125,37);
+  }
+  
+  #donate {
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+  }
+  
+  #donate .donate-inner {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  #iznos {
+    font-weight: bold;
+  }
+  
+  #iznos span {
+    font-size: 2.5rem;
+  }
+  
+  #iznosText {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .buttons button {
+    margin-top: 15px;
+    padding: 5px 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .red {
+    background: rgb(240, 88, 88);
+  }
+  
+  .red:hover {
+    background: rgb(235, 15, 15);
+  }
+  
+  .green {
+    background: rgb(116, 238, 116);
+  }
+  
+  .green:hover {
+    background: rgb(38, 206, 38);
+  }
+  
+  #donateBtn {
+    background: rgb(209,125,37);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  #donateBtn:hover {
+    background: rgb(209,125,37);
+  }
+  
+  #thanks {
+    border-radius: 15px;
+    background: rgb(116, 238, 116);
+    padding: 100px;
+    margin: 0 auto;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    font-size: 1.3rem;
+  }
+  
+  footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+    background-color: rgba(209, 125, 37, 0.9);
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    #thanks {
+      width: 600px;
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #thanks {
+      width: 90%;
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .inner img {
+      width: 250px;
+    }
+    nav {
+      font-size: 1.1rem;
+    }
+  
+    .header {
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+  
+    footer {
+      font-size: 0.8rem;
+    }
+  }
+  

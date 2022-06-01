@@ -1,0 +1,99 @@
+/* DEFAULT ACROSS ALL PAGES */
+body {
+    background: rgb(17, 56, 89);
+  }
+  
+  #social > a > img {
+    width: 14px;
+    height: 14px;
+  }
+  /* NAVBAR STUFF */
+  .navbar {
+    background-color: rgb(209 120 37);
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .nav-link > a:hover {
+    color: rgb(255 120 37);
+  }
+  
+  .nav-item:hover {
+    background-color: rgb(255 120 37);
+    border-radius: 16px;
+    color: #fff;
+  }
+
+  /* FOOTER */
+  footer > div > p {
+    color: #fff;
+  }
+  
+  footer > #social {
+    color: #fff;
+  }
+
+  #copiright {
+      color: rgb(209 120 37);
+      text-decoration: none;  
+    }
+  
+  footer > div > a:hover {
+    color: rgb(255 120 37);
+  }
+
+
+                                /* PAGE SPECIFIC */
+
+#diffMR > a, #warr > a {
+    text-decoration: none;
+    color:rgb(209 120 37);
+    display:block;
+    text-align:center;
+    margin: 5px;
+}
+
+a:hover {
+    color:rgb(255 120 37);
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+h5 {
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#diffMR, #susp, #warr, #repair_ser{
+    background-color: #fff;
+}
+
+#warr{
+
+}
+
+#warr > img {
+    height:25vh;
+}
+
+#susp {
+
+}
+
+a {
+  color:rgb(209,120,37);
+  text-decoration: none;
+}
+a:hover {
+  color:rgb(255,120,37);
+}

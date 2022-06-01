@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Projekat iz web design</title>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="price.css">
+      </head>
+    <body>
+
+    <!-- navigaciona vala -->
+    <nav class="navbar navbar-expand-xl navbar-light">
+        <a class="navbar-brand" href="mejn.html">
+          <div id="logoDiv">
+            <img src="images/logo1.png" alt="Hascar" />
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          id="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="mejn.html">Startna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="onama.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="odrzavanje.html">Odrzavanje</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="popravka.html">Popravke</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cenovnik.html">Cenovnik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="price.html"><b>SR</b>/EN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container my-3 py-3">
+      <div id="cijelo">
+        <div id="tabla" style="overflow-x:auto;">
+
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Reg Broj</th>
+                <th scope="col">Brend</th>
+                <th scope="col">Model</th>
+                <th scope="col">Kubikaza</th>
+                <th scope="col">Registrovano do:</th>
+                <th scope="col">Mesto</th>
+                <th scope="col">Fizicko stanje</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">0036008</th>
+                <td><img src="images/MBB.png" style="width:20%">Mercedes-Benz</td>
+                <td>E200</td>
+                <td>2,500 cm^3</td>
+                <td>09/2024</td>
+                <td>Beograd</td>
+                <td>Dobro: <a href="#">Slike</a></td>
+              </tr>
+              <tr>
+                <th scope="row">0036009</th>
+                <td><img src="images/bmw.png" style="width:20%;">BMW</td>
+                <td>M35</td>
+                <td>3500 cm3</td>
+                <td>07/2023</td>
+                <td>Sjenica</td>
+                <td>Dobro, malo ogrebano: <a href="#">Slike</a></td>
+              </tr>
+              <tr>
+                <th scope="row">0036007</th>
+                <td><img src="images/vlk.png" style="width:20%">Volkswagen</td>
+                <td>MK7</td>
+                <td>1900cm3</td>
+                <td>06/2022</td>
+                <td>Kragujevac</td>
+                <td>Lose (pogledaj slike za vise info): <a href="#">Slike</a></td>
+              </tr>
+              <tr>
+                <th scope="row">0036007</th>
+                <td><img src="images/frd.png" style="width:20%">Ford</td>
+                <td>Fiesta</td>
+                <td>2400 cm3</td>
+                <td>06/2027</td>
+                <td>Bor</td>
+                <td>Perfect: <A HREF="#">Slike</A></td>
+              </tr>
+              <tr>
+                <th scope="row">0036007</th>
+                <td><img src="images/msrt.png" style="width:20%">Maserati</td>
+                <td>GT</td>
+                <td>4000 cm3</td>
+                <td>11/2022</td>
+                <td>Novi Pazar</td>
+                <td>Kao novo: <A HREF="#">Slike</A></td>
+              </tr>
+            </tbody>
+          </table>
+              <!-- kraj tabele -->
+      </div>
+
+
+      <div id="pop" class="my-3 py-3 text-center">
+        <h1 class="fw-bold my-3 py-3">Najpopularnija kola</h1>
+        <img src="images/golf.jpg" class="img-fluid">
+        <h5 class="fst-italic">Volkswagen Golf MK6 (2011)</h5>
+        <div class="nesto mx-auto my-3 py-3"><p>Volkswagen Golf Mk6 (kodnog naziva Typ 5K) je kompaktni automobil, šesta generacija Volkswagen Golfa i nasljednik Volkswagen Golfa Mk5. Predstavljen je na salonu automobila u Parizu u listopadu 2008. za model 2009. godine. Volkswagen je objavio slike i informacije 6. kolovoza 2008., prije službenog predstavljanja. Vozilo je pušteno na europsko tržište u zimu 2008. Volkswagen je tvrdio da je uloženo u učinkovitost proizvodnje, uz navodno poboljšanje produktivnosti pri lansiranju od gotovo 20% u usporedbi s prethodnim modelom, s daljnjim povećanjem planiranim za prvih dvanaest mjeseci proizvodnje.</p></div>
+
+        <h5 class="fst-italic">Maserati Quattroporte (2009)</h5>
+        <img src="images/qtr.jpg" class="img-fluid" style="width:35vw;">
+        <div class="nesto mx-auto my-3 py-3"><p>Maserati Quattroporte (talijanski izgovor: [ˌkwatroˈpɔrte]) je luksuzna sportska limuzina pune veličine s četiri vrata koju proizvodi talijanski proizvođač automobila Maserati. Ime u prijevodu s talijanskog znači "četvora vrata". Automobil je trenutno u svojoj šestoj generaciji, a prva generacija predstavljena je 1963. godine.</p></div>
+        
+        <h5 class="fst-italic">Mercedes-Benz S500 (1999)</h5>
+        <img src="images/slon.jpg" class="img-fluid">
+      <div class="nesto mx-auto my-3 py-3"><p>Mercedes-Benz S-Klasa, ranije poznata kao Sonderklasse (njemački za "posebna klasa", skraćeno kao "S-Klasse"), serija je luksuznih limuzina, limuzina i blindiranih limuzina u punoj veličini koju proizvodi njemački proizvođač automobila Mercedes- Benz, odjel njemačke tvrtke Daimler AG. S-Klasa je oznaka za vrhunske Mercedes-Benzove modele i službeno je predstavljena 1972. godine s modelom W116 i od tada je ostala u upotrebi. S-Klasa je vodeće vozilo za Mercedes-Benz.</p></div>      
+      </div>
+
+      <!-- kraj cijelo -->
+    </div>
+
+
+
+
+
+
+
+    <footer class="d-flex justify-content-between my-3 py-3">
+      <div id="social">
+        <a href="https://facebook.com/"
+          ><img src="images/fb.png"></a>
+        <a href="https://twitter.com/"
+          ><img src="images/tw.png"></a>
+        <a href="https://instagram.com/"
+          ><img src="images/ig.png"></a>
+      </div>
+      <div>
+        <p>
+          Small bros inc. &copy;
+          <a href="vue/nas-tim.html" id="copiright">Copyright 2022</a>
+        </p>
+      </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

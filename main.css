@@ -1,0 +1,164 @@
+body {
+  background: rgb(17, 56, 89);
+}
+
+#social > a > img {
+  width: 14px;
+  height: 14px;
+}
+
+nav > img {
+  height: 25%;
+}
+
+#social {
+  display: block;
+}
+
+#social > p {
+  text-align: right;
+}
+
+.testimonial-1 {
+  background: #fff;
+  padding: 14px;
+  color: #000;
+}
+
+.col-md-4 {
+  margin-top: 0px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: -3px;
+}
+
+.place {
+  font-size: 13px;
+  color: #5d5c61;
+}
+
+.place-2 {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.testimonial-2 {
+  background: rgb(209, 120, 37);
+  padding: 14px;
+  color: #fff;
+}
+
+#carouselExampleDark {
+  margin-bottom: 1em;
+}
+
+.carousel-inner > img {
+  width: 85vw;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Navbar stuff */
+
+.navbar { 
+  background-color: rgb(209 120 37);
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-link > a:hover {
+  color: rgb(255 120 37);
+}
+
+.nav-item:hover {
+  background-color: rgb(255 120 37);
+  border-radius: 16px;
+  color: #fff;
+}
+
+/* ja sam slider */
+.carousel-caption > p,
+.carousel-caption > h5 {
+  font-weight: 700;
+  color: #fff;
+}
+.carousel-caption {
+  background-color: #00000080;
+}
+
+/* buttons */
+.btn {
+  background-color: rgb(255, 120, 37);
+  color: #fff;
+  border: #fff;
+}
+
+/* ja sam fontic testimonijala */
+.testimonial-1 > p,
+.testimonial-2 > p,
+.testimonial-3 > p {
+  font-style: italic;
+}
+
+/*
+				adjusting distance between cards*
+					NEEDS A TON OF WORK
+			*/
+
+.col-md-3 {
+  padding-left: 1px;
+  padding-right: 1px;
+  border: #fff;
+}
+
+.col-md3 > .card-body {
+  height: 100%;
+}
+
+/* SERVISI I LINKOVI */
+
+#services {
+  background-color: #fff;
+  display: block;
+  text-align: center;
+}
+
+#services > h2 {
+  color: rgb(255, 120, 37);
+}
+
+#services > a {
+  color: #000;
+  font-weight: 700;
+}
+
+#services > a:hover {
+  color: rgb(255 120 37);
+}
+
+/*FOOTER STUFF*/
+footer > div > p {
+  color: #fff;
+}
+
+footer > #social {
+  color: #fff;
+}
+
+#copiright {
+  color: rgb(209 120 37);
+  text-decoration: none;
+}
+
+footer > div > a:hover {
+  color: rgb(255 120 37);
+}
